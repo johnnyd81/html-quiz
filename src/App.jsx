@@ -1,5 +1,5 @@
 import { useEffect, useReducer } from "react";
-
+//required files
 import Loader from "./components/Loader";
 import Error from "./components/Error";
 import StartScreen from "./components/StartScreen";
