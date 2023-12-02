@@ -26,6 +26,7 @@ const initialState = {
 };
 
 //the reducer function modifies the state according to the action type
+//a new version of the state is returned depending on the action.type
 const reducer = (state, action) => {
   switch (action.type) {
     case "dataReceived":
